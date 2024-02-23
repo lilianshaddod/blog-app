@@ -1,0 +1,50 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+<body>
+  <%- include("./partials/nav.ejs") %>
+
+  <div class="about">
+  <div class="content">
+    <h2>About Blog App</h2>
+    <p>Blog app is a straightforward platform that combines various technologies. Here are the key components:</p>
+  </div>
+
+  <div class="content">
+    <h3>Frontend Interface:</h3>
+    <p>The user interface is built using <a href="https://ejs.co/">EJS</a>, a powerful templating engine that allows dynamic content rendering.
+      <a href="https://ejs.co/">EJS</a> enables us to create dynamic <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a> pages by embedding <a href="https://devdocs.io/javascript/">JavaScript</a> code directly into our templates.</p>
+  </div>
+  <div class="content">
+    <h3>Backend Logic:</h3>
+    <p>The core functionality of the app is powered by <a href="https://nodejs.org/en">Node.js</a>
+      and <a href="https://expressjs.com/">Express.js</a>.
+      These technologies handle routing, middleware, and server-side logic. 
+      Express.js provides a robust framework for building <a href="https://aws.amazon.com/what-is/restful-api/">RESTful APIs</a>
+      and handling <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">HTTP requests</a>.
+    </p>
+  </div>
+  <div class="content">
+    <h3>Database Management:</h3>
+    <p>We utilize <a href="https://www.mongodb.com/">MongoDB</a> as our database system, and <a href="https://mongoosejs.com/">Mongoose</a> acts as the ODM (Object-Document Mapper). 
+      <a href="https://mongoosejs.com/">Mongoose</a> simplifies interactions with <a href="https://www.mongodb.com/">MongoDB</a> by providing a schema-based solution.
+      This allows us to define data models, perform CRUD operations, and manage relationships between different data entities.
+    </p>
+  </div>
+  <div class="content">
+    <h3> <a href="https://www.w3schools.in/mvc-architecture">MVC</a> Architecture:</h3>
+    <p>To maintain a clean and organized codebase, we follow the Model-View-Controller (<a href="https://www.w3schools.in/mvc-architecture">MVC</a>) architectural pattern. Here's how it breaks down:
+      <ul class="mvc_list">
+        <li><b>Model:</b> Represents the data structure and business logic. Our models define the schema for blog posts, and any other relevant data.</li>
+        <li><b>View:</b> The <a href="https://ejs.co/">EJS</a> templates serve as our views. They dynamically render data from the backend and present it to users.</li>
+        <li><b>Controller:</b> Our controllers handle user requests, interact with the models, and send appropriate responses. By separating concerns, we achieve better code modularity and reusability.</li>
+      </ul>
+      By adhering to the <a href="https://www.w3schools.in/mvc-architecture">MVC</a> structure, we ensure that our app remains maintainable, scalable, and easy to read.
+      Whether you're adding new features or fixing bugs, this architecture streamlines development and promotes best practices.
+    </p>
+  </div>
+  </div>
+
+  <%- include("./partials/footer.ejs") %>
+</body>
+</html>

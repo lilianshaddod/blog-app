@@ -1,0 +1,27 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "description": "blog app, a straightforward platform that combines various technologies",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blog-app.git"
+  },
+  "author": "lilianshaddod",
+  "license": "ISC",
+  "homepage": "https://github.com/blog-app#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  }
+}
