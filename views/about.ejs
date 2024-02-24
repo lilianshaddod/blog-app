@@ -46,5 +46,20 @@
   </div>
 
   <%- include("./partials/footer.ejs") %>
+  <!-- add target: _blank attribute for all about page links using JavaScript -->
+  <script>
+  var linkList = document.querySelectorAll('.about a');
+
+  for(var i in linkList){
+   linkList[i].setAttribute('target', '_blank');
+  } 
+  </script>
+  <!-- add target: _blank attribute for all about page links using jQuery -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+    $('.about a').attr('target', '_blank');
+    });
+  </script> -->
 </body>
 </html>
