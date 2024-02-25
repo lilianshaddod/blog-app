@@ -28,10 +28,11 @@ To maintain a clean and organized codebase, we follow the Model-View-Controller 
     + save it to environment variables
     + check user access permissions from Database Access,<br>and update as required.
 + GIT
+
 ## Available Scripts
 
 In the project directory, you can run:
 ### `npm install` to install required dependencies
-### `nodemon app` to run the app
+### `npm run dev` to run the app
 
 Open [localhost:3000](http://localhost:3000) to view it in your browser.
